@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react";//import usestate to use state
 const ListItem =({data})=>
 {
     const [cart,setcart]=useState("no items added to cart")

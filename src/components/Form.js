@@ -5,6 +5,7 @@ const Form=(props)=>{
 return(
 <div className={"form"}>
  <form style={{margin:"40px"}}  onSubmit={props.onFormSubmission}>
+    {/* after form submission this onFormSubmissioncalled */}
  <h2>Item Card Details</h2>
   <div className={"input-field"}>
   <label style={{margin:"10px"}} htmlFor='title'>Enter the title</label>
